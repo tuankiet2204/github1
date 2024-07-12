@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+body {
+  color: #333;
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+.top1 {
+  margin: 30px auto;
+  width: 1140px;
+}
+.top1 h1 {
+  color: #ffce1b;
+  font-size: 45px;
+  margin-bottom: 34px;
+  text-align: center;
+}
+.top1 .top2 li {
+  float: left;
+  padding: 30px;
+  text-align: center;
+  width: 490px;
+}
+.top1 .top2 li:nth-child(3n) {
+  clear: left;
+}
+.top1 .top2 li .logo {
+  margin-bottom: 3px;
+}
+.top1 .top2 li .text {
+  font-style: italic;
+}
